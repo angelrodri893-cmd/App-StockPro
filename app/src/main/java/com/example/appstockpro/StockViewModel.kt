@@ -17,7 +17,7 @@ class StockViewModel : ViewModel() {
 
     //aqui se agrega las funcionalidades del negocio, como obtener un producto por su ID, actualizar el stock, calcular el valor total del inventario, etc.
 
-    fun obtenerProductoPorId(id: Int): Producto? {
+    fun obtenerProducto(id: Int): Producto? {
         return productos.find { it.id == id }
     }
 
